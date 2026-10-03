@@ -38,9 +38,9 @@ O projeto utiliza um barramento de energia (5V e GND) criado fisicamente na plac
 
 ## 🚀 Como Instalar e Usar
 
-1. Clone este repositório: `git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git`
+1. Clone este repositório: `git clone https://github.com/pedrovsilva00/LuminariaTemporal.git`
 2. Abra o código principal na IDE do Arduino ou PlatformIO.
-3. Instale as bibliotecas necessárias listadas no código (ex: `Adafruit_NeoPixel`, `WiFiManager`, bibliotecas do E-paper).
+3. Instale as bibliotecas necessárias listadas no código (ex: `Adafruit_NeoPixel`, `WiFiManager`, `ArduinoJson`, `GxEPD2_BW`).
 4. Carregue o código no ESP32.
    > **Aviso de Segurança:** Ao programar o ESP32 via cabo USB conectado ao computador, desconecte a fonte externa da porta USB-C da placa ilhada para evitar corrente reversa, ou utilize um cabo USB sem o pino de 5V (apenas dados).
 5. Ao ligar a primeira vez, o ESP32 criará um Ponto de Acesso (AP). Conecte-se a ele para configurar as credenciais da sua rede Wi-Fi local.
