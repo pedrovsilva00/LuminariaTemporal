@@ -15,7 +15,7 @@ O grande diferencial deste hardware é a sua **arquitetura de gestão de energia
 * **Gestão Anti-Brownout:** Lógica de software que intercala o uso de energia entre a rede Wi-Fi e os LEDs de alta potência.
 * **Interface Física:** Controle tátil integrado (Push Button para iluminação e Chave Alavanca para Hard Reset/Sleep via pino `EN`).
 * **Configuração Dinâmica de Rede:** Integração com `WiFiManager` para conexão em novas redes sem necessidade de reprogramação.
-* **API** brasileira para previsão do tempo ![HGBrasil](https://hgbrasil.com/docs/weather/).
+* **API HGBrasil** para previsão do tempo, gratuita e nacional.
 
 ## 🛠️ Lista de Componentes (Hardware)
 
