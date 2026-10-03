@@ -1,7 +1,7 @@
 #include <GxEPD2_BW.h>
 #include <Fonts/FreeSansBold18pt7b.h> // titulo
-#include <Fonts/FreeSans12pt7b.h> // subtitulo, caso necessario adicionar outra para info menores
-#include <Fonts/FreeMono9pt7b.h>
+#include <Fonts/FreeSans12pt7b.h> // Subtitulo
+#include <Fonts/FreeMono9pt7b.h> // texto simples 
 #include <HTTPClient.h>
 #include <WiFiClientSecure.h>
 #include <ArduinoJson.h>
