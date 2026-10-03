@@ -102,7 +102,7 @@ DadosClima buscarDados() {
     // key é gerada na criação da conta do hgbrasil
     // woeid é o codigo da sua cidade
     HTTPClient http; 
-    String url = "https://api.hgbrasil.com/weather?key=1e6370f0&woeid=455912"; // alterar key e woeid
+    String url = "https://api.hgbrasil.com/weather?key=suachave&woeid=iddasuacidade"; // alterar key e woeid
     
     http.begin(client, url); 
     
