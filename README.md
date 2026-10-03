@@ -46,6 +46,6 @@ O projeto utiliza um barramento de energia (5V e GND) criado fisicamente na plac
 5. Ao ligar a primeira vez, o ESP32 criará um Ponto de Acesso (AP). Conecte-se a ele para configurar as credenciais da sua rede Wi-Fi local.
 
 
-**Observação:** a parte da estrutura do projeto ainda não está como gostaria, quero no futuro passar para a impressão 3D, por isso não publiquei a confecção do case. 
+* Observação: a parte da estrutura do projeto ainda não está como gostaria, quero no futuro passar para a impressão 3D, por isso não publiquei a confecção do case. 
 ---
 *Desenvolvido por [pedrovsilva00]*
