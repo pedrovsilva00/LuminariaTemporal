@@ -6,7 +6,7 @@
 
 Este projeto consiste em uma luminária inteligente e painel de informações (dashboard) de alto padrão e baixo consumo. O sistema integra iluminação ambiente controlável e uma tela de e-paper para exibição de dados estáticos, tudo processado por um **ESP32**.
 
-O grande diferencial deste hardware é a sua **arquitetura de gestão de energia**. Para evitar problemas de *brownout* (reinicializações por queda de tensão) comuns no ESP32, o sistema utiliza uma técnica de *time-sharing*: a fita de LED é desligada temporariamente durante o pico de consumo do Wi-Fi, garantindo estabilidade absoluta. Todo o circuito foi montado em uma placa perfurada (perfboard) utilizando barramentos independentes de energia alimentados por uma porta USB-C externa.
+O grande diferencial deste hardware é a sua **arquitetura de gestão de energia**. Para evitar problemas de *brownout* (reinicializações por queda de tensão) comuns no ESP32, o sistema utiliza uma técnica de *time-sharing*: a fita de LED é desligada temporariamente durante o pico de consumo do Wi-Fi, garantindo estabilidade absoluta. Além de que, atualiza as informações de hora em hora, pois a API utilizada compartilha novos dados de hora em hora (se for mudar a API é possível criar atualizações mais frequentes ou mais demoradas) 
 
 ## ✨ Principais Funcionalidades
 
